@@ -12,27 +12,27 @@ class Config(object):
    
     API_HASH = "f8f993acb1d5f51c950ba873404d9af5"
    
-    TOKEN = "8154928303:AAHOdHIV_PAMiXzLRhmILYPrw7RSw3cdQi8"
+    TOKEN = "7560038934:AAEM7nhalkJhIEB4hsU6RyHtE7HIfd6skJc"
   
-    OWNER_ID = "5458968679"
+    OWNER_ID = "5632522530"
 
-    OWNER_USERNAME = "@i_am_morish"
+    OWNER_USERNAME = "@GeraultofRivia"
     
-    SUPPORT_CHAT = "PiratesMainchat"
+    SUPPORT_CHAT = "SaraKujou_Support"
    
-    START_IMG = "https://files.catbox.moe/scntdi.jpg"
+    START_IMG = "https://files.catbox.moe/5mn5uc.jpg"
 
-    JOIN_LOGGER = "-1002052732769"
+    JOIN_LOGGER = "-1002009280180"
    
-    EVENT_LOGS = "-1002052732769"
+    EVENT_LOGS = "-1002009280180"
   
-    ERROR_LOGS = "-1002295880117"
+    ERROR_LOGS = "-1002025076123"
 
     MONGO_DB_URI= "mongodb+srv://Gojo_tu:Gojo2347@gojo.eii7p.mongodb.net/?retryWrites=true&w=majority&appName=Gojo"
    
-    LOG_CHANNEL = "-1002286294709"
+    LOG_CHANNEL = "-1002270763831"
    
-    BOT_USERNAME = "NoelleSilva_robot"
+    BOT_USERNAME = "SaraKujou_Robot"
    
     DATABASE_URL = "postgres://oocekooc:W2w0GdYOHNwvqKh047VMGjhHq_Xlb2sS@hansken.db.elephantsql.com/oocekooc"
 
@@ -61,11 +61,11 @@ class Config(object):
     # Optional fields
     
     BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = [5458968679]  # User id of sudo users
+    DRAGONS = [5632522530]  # User id of sudo users
     DEV_USERS = [7078181502]  # User id of dev users
-    DEMONS = [7363537003]  # User id of support users
-    TIGERS = [7078181502]  # User id of tiger users
-    WOLVES = [7078181502]  # User id of whitelist users
+    DEMONS = [5632522530]  # User id of support users
+    TIGERS = [5632522530]  # User id of tiger users
+    WOLVES = [5632522530]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
