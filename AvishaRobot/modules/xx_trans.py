@@ -64,7 +64,7 @@ from telethon import __version__ as s
 from AvishaRobot import OWNER_ID, dispatcher
 from AvishaRobot import pbot as client
 
-AVISHA = "https://graph.org/file/dcc62e53435a919373a0a.jpg"
+AVISHA = "https://files.catbox.moe/5mn5uc.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -91,7 +91,7 @@ async def repo(client, message):
 @app.on_callback_query(filters.regex("gib_source"))
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
-        media=InputMediaVideo("https://telegra.ph/file/9235d57807362b4e227a3.mp4", has_spoiler=True),
+        media=InputMediaVideo("https://files.catbox.moe/lp93ua.mp4", has_spoiler=True),
         reply_markup=InlineKeyboardMarkup(
             [
                 [close_button]
